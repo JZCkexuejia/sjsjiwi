@@ -1,0 +1,7 @@
+If Not datatableInterferenceCheck.Columns.Contains("*_MIN") Then  
+datatableInterferenceCheck.Columns.Add("*_MIN", GetType(String))  
+End If 
+
+If Not datatableInterferenceCheck.Columns.Contains("*_MAX") Then  
+datatableInterferenceCheck.Columns.Add("_MAX", GetType(String))  
+End If 
